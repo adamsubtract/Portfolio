@@ -1,3 +1,20 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0;
+}
+
+li {
+  display: inline-block;
+}
+
+nav {
+  background-color: #dddddd;
+}
