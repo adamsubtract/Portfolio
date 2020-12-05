@@ -6,9 +6,31 @@ body {
   margin: 0;
 }
 
+<<<<<<< HEAD
 ul {
   list-style-type: none;
 }
 .container {
   display: inline-block;
 }
+=======
+.container {
+  background-color: #dddddd;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  padding: 14px 14px;
+}
+>>>>>>> nav
