@@ -6,22 +6,42 @@ body {
   margin: 0;
 }
 
+nav {
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
 .container {
   background-color: #dddddd;
   max-width: 900px;
   margin: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0 0;
+.row {
+  display: flex;
 }
 
-li {
-  display: inline-block;
+.nav {
+  border: 2px solid blue;
+  align-content: center;
 }
 
-li a {
-  text-decoration: none;
-  padding: 14px 14px;
+.nav__list {
+  border: 2px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  border: 2px solid red;
+}
+
+.logo {
+  align-content: center;
 }
