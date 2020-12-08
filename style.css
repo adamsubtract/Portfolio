@@ -51,6 +51,14 @@ li a {
   margin-left: 1em;
 }
 
+.work:visited {
+  color: black;
+}
+
+.contact:visited {
+  color: black;
+}
+
 .logo {
   align-content: center;
 }
