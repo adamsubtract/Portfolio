@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+header {
+  background: #dddddd;
+  width: 100%;
+}
+
 nav {
 }
 
@@ -21,6 +26,7 @@ li a {
   background-color: #dddddd;
   max-width: 900px;
   margin: 0 auto;
+  width: 80%;
 }
 
 .row {
@@ -29,19 +35,26 @@ li a {
 
 .nav {
   border: 2px solid blue;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__list {
   border: 2px solid red;
-  margin: 0;
-  padding: 0;
+  padding-inline-start: 0;
 }
 
 .nav__item {
-  border: 2px solid red;
+}
+
+.nav__item + .nav__item {
+  margin-left: 1em;
 }
 
 .logo {
   align-content: center;
+}
+
+.about__me {
+  text-align: center;
 }
