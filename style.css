@@ -4,15 +4,26 @@
 
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin: 0;
+  line-height: 1;
+}
+
+p {
+  margin: 0;
 }
 
 header {
-  background: #dddddd;
+  background: white;
   width: 100%;
 }
-
-/* nav {
-} */
 
 ul {
   list-style-type: none;
@@ -23,7 +34,7 @@ li a {
 }
 
 .container {
-  background-color: #dddddd;
+  background-color: white;
   max-width: 900px;
   margin: 0 auto;
   width: 80%;
@@ -33,10 +44,28 @@ li a {
   display: flex;
 }
 
+.logo {
+  align-content: center;
+  background-color: black;
+  color: white;
+  padding: 0 15px;
+}
+
+.logo__name {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.intro-hello {
+  font-size: 5em;
+  font-weight: 400;
+}
+
 .nav {
   border: 2px solid blue;
   justify-content: space-between;
   align-items: center;
+  max-width: 800px;
 }
 
 .nav__list {
@@ -44,17 +73,25 @@ li a {
   padding-inline-start: 0;
 }
 
-/* .nav__item {
-} */
+.nav__link {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 0.75rem;
+}
 
 .nav__item + .nav__item {
   margin-left: 1em;
 }
 
-.logo {
-  align-content: center;
-}
-
 .about__me {
   text-align: center;
+}
+
+.about__me p {
+  font-size: 0.65em;
+  margin: 0 auto;
+  line-height: 1;
+  max-width: 290px;
+  text-align: justify;
 }
