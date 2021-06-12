@@ -57,7 +57,7 @@ li a {
 }
 
 .intro-hello {
-  font-size: 5em;
+  font-size: 14em;
   font-weight: 400;
 }
 
@@ -65,7 +65,7 @@ li a {
   border: 2px solid blue;
   justify-content: space-between;
   align-items: center;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .nav__list {
